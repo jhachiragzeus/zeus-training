@@ -1,0 +1,180 @@
+body {
+    background-color: #efefee;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+.header {
+    display: flex;
+    justify-content: start;
+    height: max-content;
+    color: white;
+    background-image: linear-gradient(rgba(15, 27, 42, 0.8), rgba(15, 27, 42, 0.8)), url("/images/background/header_pattern_svg.svg");
+    border-bottom: 3px solid #5ec7e6;
+    margin-bottom: 5%;
+}
+
+.imgheader {
+    margin-left: 20px;
+}
+
+.form {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    height: auto;
+
+    width: 450px;
+    margin: auto;
+    border: 2px solid white;
+    border-top: 4px solid #3ac7ec;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #fefeff;
+}
+
+.form-header {
+    width: 600px;
+    display: flex;
+}
+
+.back-img {
+    margin-right: 150px;
+}
+
+.form-title {
+    margin-left: 0px;
+}
+
+.State {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.District {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 100%;
+
+}
+
+label {
+    font-weight: 600;
+}
+
+.Name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 100%;
+
+}
+
+.fpass {
+    display: flex;
+    margin-bottom: 40px;
+    width: 100%;
+
+}
+
+.form-content {
+    width: 100%;
+}
+
+.form-content input {
+    border: none;
+}
+
+.fp {
+    width: 100%;
+    border: none;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.Name div {
+    display: flex;
+}
+
+.fg {
+    display: flex;
+    justify-content: end;
+}
+
+hr {
+    border: 1px solid grey;
+}
+
+.bord {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #eeefee;
+}
+
+.radio input {
+    display: none;
+    accent-color: #318460;
+}
+
+.radio span {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #318460;
+}
+
+
+.checkbox input {
+    accent-color: #318460;
+}
+
+a {
+    color: #318460;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cl {
+    color: #aaabab;
+}
+
+select {
+    width: 100%;
+    border: none;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.btn {
+    background-color: #3fd38a;
+    border: 1px solid #3fd38a;
+    width: auto;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #8cceb2;
+}
+
+.divbtn {
+    margin-top: 40px;
+    align-self: center;
+    padding-bottom: 30px;
+}
+
+input::placeholder {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}

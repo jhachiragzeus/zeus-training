@@ -1,0 +1,64 @@
+html,
+body {
+    height: 100%;
+    margin: 2px;
+    color: white;
+    font-size: 1.25em;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    grid-gap: 5px;
+    grid-template-columns: 300px 1fr 1fr;
+    grid-template-rows: 100px auto auto 100px;
+    grid-template-areas:
+        "h h h"
+        "s c c"
+        "s c2 c3"
+        "f f f";
+}
+
+.container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    grid-area: h;
+    background-image: linear-gradient(to right, #836ddf, #836ddf, #836ddf, #836ddf, #836ddf, #8d79e2, #9885e6, #9885e6, #9885e6, #9885e6, #9981f8, #a894f8);
+    border: 1px solid black;
+}
+
+.sidebar {
+    grid-area: s;
+    border: 1px solid black;
+    background-image: linear-gradient(to right bottom, #3ad4cc, #38cfc7, #36c9c2, #34c4bd, #32bfb8, #31bcb5, #30b8b1, #2fb5ae, #2eb2ab, #2eb0a9, #2dada6, #2caba4);
+}
+
+.content1 {
+    grid-area: c;
+    border: 1px solid black;
+    background-image: linear-gradient(to right bottom, #6757db, #6a55da, #536ee4, #516fe6, #3f84ed, #3783ee, #368ef1, #2d99f5, #00abf6, #1fa8fb, #2bc0ed, #39d7dd);
+}
+
+.content2 {
+    grid-area: c2;
+    border: 1px solid black;
+    background-image: linear-gradient(to right bottom, #6757db, #6a55da, #536ee4, #516fe6, #3f84ed, #3783ee, #368ef1, #2d99f5, #00abf6, #1fa8fb, #2bc0ed, #39d7dd);
+}
+
+
+.content3 {
+    grid-area: c3;
+    border: 1px solid black;
+    background-image: linear-gradient(to right bottom, #6757db, #6a55da, #536ee4, #516fe6, #3f84ed, #3783ee, #368ef1, #2d99f5, #00abf6, #1fa8fb, #2bc0ed, #39d7dd);
+}
+
+.footer {
+    grid-area: f;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #836ddf, #836ddf, #836ddf, #836ddf, #836ddf, #8d79e2, #9885e6, #9885e6, #9885e6, #9885e6, #9981f8, #a894f8);
+
+}
