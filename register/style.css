@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    background-color: #efefee;
+}
+
+*:focus {
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    color: white;
+    width: 100%;
+    background-image: linear-gradient(rgba(15, 27, 42, 0.8),
+            rgba(15, 27, 42, 0.8)),
+        url("/images/background/header_pattern_svg.svg");
+    border-bottom: 3px solid #5ec7e6;
+    position: relative;
+    justify-content: space-between;
+}
+
+.acc-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3C4E62 0% 0% no-repeat padding-box;
+}
+
+.acc-head button {
+    width: 150px;
+    height: 45px;
+    background: #3FD28B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 5px #0000003D;
+    text-transform: uppercase;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+.acc-head img {
+    width: 16px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 24px/28px Material-Design-Iconic-Font;
+    letter-spacing: 0px;
+    color: #3FD28B;
+    opacity: 1;
+}
